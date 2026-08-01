@@ -28,6 +28,12 @@ ln -s $(which fdfind) ~/.local/bin/fd
 brew install zsh neovim eza bat fd fzf zoxide starship ripgrep
 ```
 
+### Fedora
+
+```sh
+sudo dnf install zsh neovim eza bat fd-find fzf zoxide starship ripgrep
+```
+
 ## Setup
 
 **1. Clone the repo**
@@ -38,7 +44,7 @@ git clone https://github.com/radleylewis/zsh ~/.config/zsh
 
 **2. Point zsh at the config directory**
 
-Add the following to `/etc/zsh/zshenv`:
+Add the following to `/etc/zsh/zshenv` or `/etc/zshenv`(Fedora):
 
 ```sh
 if [[ -z "$XDG_CONFIG_HOME" ]]
