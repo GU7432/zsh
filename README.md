@@ -39,7 +39,7 @@ sudo dnf install zsh neovim eza bat fd-find fzf zoxide starship ripgrep
 **1. Clone the repo**
 
 ```sh
-git clone https://github.com/radleylewis/zsh ~/.config/zsh
+git clone https://github.com/GU7432/zsh.git ~/.config/zsh
 ```
 
 **2. Point zsh at the config directory**
